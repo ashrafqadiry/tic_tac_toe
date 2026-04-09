@@ -78,7 +78,7 @@ function checkWin() {
       if (pattern1 === pattern2 && pattern2 === pattern3) {
         win = true;
         winner();
-      } else if (count == 9) {
+      } else if (count == 9 && win==false) {
         matchdraw();
       }
     }
